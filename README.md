@@ -9,16 +9,16 @@ The system utilizes collaborative filtering, content-based filtering, and popula
 ## Data Structures
 
 ### Course
--id: Unique identifier for the course.
--title: Title of the course.
--topic: Topic or subject of the course.
--instructor: Instructor or author of the course.
--popularity: Popularity score of the course.
+- id: Unique identifier for the course.
+- title: Title of the course.
+- topic: Topic or subject of the course.
+- instructor: Instructor or author of the course.
+- popularity: Popularity score of the course.
 
 ### User
--id: Unique identifier for the user.
--interests: List of topics or subjects the user is interested in.
--previousEnrollments: List of IDs of courses the user has previously enrolled in.
+- id: Unique identifier for the user.
+- interests: List of topics or subjects the user is interested in.
+- previousEnrollments: List of IDs of courses the user has previously enrolled in.
 
 ## Recommendation Algorithm
 
